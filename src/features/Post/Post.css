@@ -4,7 +4,8 @@
 }
 
 .post-container {
-  width: 100%;
+
+  display: flexbox;
 }
 
 .post-details {
