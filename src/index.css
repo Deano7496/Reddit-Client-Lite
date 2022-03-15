@@ -8,8 +8,7 @@ body {
 }
 
 #root {
-  display:inline;
-  grid-gap: var(--spacing-2);
+  display: inline;
   align-content: center;
 }
 
@@ -24,10 +23,10 @@ a {
 }
 
 header {
-  grid-column: 1/-1;
+  grid-column: 1/0;
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  grid-gap: var(--spacing-2);
+  grid-template-columns: 1fr 1fr 2fr;
+  grid-gap: 5px;
   align-content: center;
 }
 
