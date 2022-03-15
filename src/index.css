@@ -39,6 +39,5 @@ header {
   main {
     grid-column: 1;
     padding: 1rem;
-    background-color: lightblue;
   }
 }
